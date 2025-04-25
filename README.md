@@ -17,8 +17,8 @@ Esta aplicación está diseñada para gestionar y calcular los flujos de caja de
 
 - Python 3.8+
 - Streamlit
-- pandas==2.2.3
-- numpy==1.24.3
+- pandas==1.4.0
+- numpy==1.26.3
 - numpy-financial==1.0.0
 - plotly==6.0.1
 - python_dateutil==2.9.0.post0
