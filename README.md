@@ -1,4 +1,4 @@
-# pres_prom_inmob_v2
+# CF_prom_inmob
 # Aplicación de Flujos de Caja para Promociones Inmobiliarias
 
 Esta aplicación está diseñada para gestionar y calcular los flujos de caja de una promoción inmobiliaria. Permite cargar y gestionar proyectos, crear versiones, importar datos desde archivos Excel, calcular los costes de ejecución, y generar informes detallados. Todo esto con una interfaz amigable utilizando **Streamlit**.
