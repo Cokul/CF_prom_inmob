@@ -1,4 +1,4 @@
-Python 3.12
+Pytho==3.12
 Streamlit
 pandas==1.4.0
 numpy==1.26.3
