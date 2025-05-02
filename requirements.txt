@@ -1,5 +1,4 @@
-Python
-Streamlit
+streamlit
 pandas==1.4.0
 numpy==1.26.3
 numpy-financial==1.0.0

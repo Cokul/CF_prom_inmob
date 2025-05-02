@@ -83,10 +83,7 @@ def generar_tablas_costes_ejecucion(datos):
             df_costes_mensual.loc[mes, row["Capítulo"]] = coste / duracion
 
     df_costes_mensual = df_costes_mensual.fillna(0)
-    df_costes_mensual["Total"] = df_costes_mensual.sum(axis=1)
-    total_row = df_costes_mensual.sum().to_frame().T
-    total_row.index = ["Total"]
-    df_costes_mensual = pd.concat([df_costes_mensual, total_row])
+    df_costes_mensual["T. Costes"] = df_costes_mensual.sum(axis=1)
 
     # Calcular los costes con IVA
     df_costes_iva = df_costes_mensual.copy()
@@ -98,16 +95,39 @@ def generar_tablas_costes_ejecucion(datos):
     df_mostrar_plan = df_plan.copy()
     df_mostrar_plan["Fecha inicio"] = df_mostrar_plan["Fecha inicio"].dt.strftime("%Y-%m")
     df_mostrar_plan["Fecha fin"] = df_mostrar_plan["Fecha fin"].dt.strftime("%Y-%m")
-    df_mostrar_plan["Coste capítulo"] = df_mostrar_plan["Coste capítulo"].apply(formatear_moneda)
     st.dataframe(df_mostrar_plan, use_container_width=True)
 
+    # === 💸 Costes mensuales (sin IVA) ===
     st.markdown("### 💸 Costes mensuales (sin IVA)")
-    st.dataframe(df_costes_mensual.style.format(formatear_moneda), use_container_width=True)
+    df_costes_mensual.index.name = "Mes"
+    df_costes_mensual = df_costes_mensual.reset_index()
+    df_costes_mensual["Mes"] = df_costes_mensual["Mes"].astype(str)
 
+    # Crear fila de total
+    total_row = pd.DataFrame(
+        [["Total"] + df_costes_mensual.drop(columns=["Mes"]).sum().tolist()],
+        columns=df_costes_mensual.columns
+    )
+    df_costes_mensual = pd.concat([df_costes_mensual, total_row], ignore_index=True)
+
+    st.dataframe(df_costes_mensual, use_container_width=True)
+
+    # === 💸 Costes mensuales (con IVA ejecución) ===
     st.markdown("### 💸 Costes mensuales (con IVA ejecución)")
-    st.dataframe(df_costes_iva.style.format(formatear_moneda), use_container_width=True)
+    df_costes_iva.index.name = "Mes"
+    df_costes_iva = df_costes_iva.reset_index()
+    df_costes_iva["Mes"] = df_costes_iva["Mes"].astype(str)
+
+    # Crear fila de total
+    total_row_iva = pd.DataFrame(
+        [["Total"] + df_costes_iva.drop(columns=["Mes"]).sum().tolist()],
+        columns=df_costes_iva.columns
+    )
+    df_costes_iva = pd.concat([df_costes_iva, total_row_iva], ignore_index=True)
+
+    st.dataframe(df_costes_iva, use_container_width=True)
 
     # Guardar los resultados en 'datos' para su posterior uso
     datos["planificacion_capitulos"] = df_plan.to_dict(orient="records")
-    datos["costes_mensuales_ejecucion"] = df_costes_mensual.reset_index().rename(columns={"index": "Mes"}).to_dict(orient="records")
-    datos["costes_mensuales_ejecucion_iva"] = df_costes_iva.reset_index().rename(columns={"index": "Mes"}).to_dict(orient="records")
+    datos["costes_mensuales_ejecucion"] = df_costes_mensual.to_dict(orient="records")
+    datos["costes_mensuales_ejecucion_iva"] = df_costes_iva.to_dict(orient="records")

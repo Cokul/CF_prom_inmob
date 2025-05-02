@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
-#from indicadores.tir import calcular_tir_proyecto
-from utils.u_tir import calcular_tir_promotora, calcular_tir_proyecto
-
+from indicadores.indicadores_rentabilidad import mostrar_indicadores_rentabilidad
 
 def mostrar_resumen_general(datos):
     with st.expander("📋 Datos generales del proyecto", expanded=True):
@@ -36,10 +34,8 @@ def mostrar_resumen_general(datos):
         st.markdown(f"- **IVA Otros**: {datos.get('iva_otros', 0):.2f}%")
 
         # Costes por vivienda
-        superficie_construida = datos.get("superficie_construida_total", 0)
-        n_viviendas = datos.get("n_viviendas_ingresos", 1) or 1  # evitar división por cero
+        n_viviendas = datos.get("n_viviendas_ingresos", 1) or 1
         precio_medio = datos.get("precio_medio_ingresos", 0)
-
         coste_suelo_total = datos.get("coste_suelo", 0)
         coste_ejecucion_total = datos.get("coste_total_ejecucion", 0)
 
@@ -58,7 +54,6 @@ def mostrar_resumen_general(datos):
             costes_comerciales_vivienda,
             costes_financieros_vivienda
         ])
-
         margen_vivienda = precio_medio - coste_total
         margen_pct = (margen_vivienda / precio_medio * 100) if precio_medio else 0
 
@@ -72,37 +67,6 @@ def mostrar_resumen_general(datos):
 
         st.markdown(f"### 🧮 Coste total por vivienda: {coste_total:,.2f} €")
         st.markdown(f"### 💶 Margen estimado por vivienda: {margen_vivienda:,.2f} € ({margen_pct:.2f}%)")
-        #tir, error = calcular_tir_proyecto(datos)
-        #if error:
-        #    st.warning(error)
-        #elif tir is not None:
-        #    st.metric("📈 TIR del proyecto", f"{tir:.2%}")
-        
-        tir_proyecto, err_proy = calcular_tir_proyecto(datos)
-        tir_promotora, err_prom = calcular_tir_promotora(datos)
 
-        st.markdown("### 📊 Indicadores de rentabilidad")
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            st.markdown("**📈 TIR del Proyecto**")
-            st.caption("Tasa Interna de Retorno del proyecto completo, considerando todos los ingresos y costes con IVA.")
-            if err_proy:
-                st.warning(err_proy)
-            elif tir_proyecto is not None and not pd.isna(tir_proyecto):
-                st.metric("TIR Proyecto", f"{tir_proyecto * 100:.2f}%")
-            else:
-                st.warning("❌ No se ha podido calcular la TIR del proyecto.")
-
-        with col2:
-            st.markdown("**🏗️ TIR de la Inversión Promotora**")
-            st.caption("TIR sobre la inversión asumida por la promotora: costes no cubiertos por clientes (suelo, indirectos, financieros y déficit de cuenta especial).")
-            if err_prom:
-                st.warning(err_prom)
-            elif tir_promotora is not None and not pd.isna(tir_promotora):
-                st.metric("TIR Promotora", f"{tir_promotora * 100:.2f}%")
-            else:
-                st.warning("❌ No se ha podido calcular la TIR de la promotora.")
-            
-        
+    # 👇 Fuera del expander
+    mostrar_indicadores_rentabilidad(datos)

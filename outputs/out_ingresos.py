@@ -2,7 +2,6 @@ import pandas as pd
 from dateutil.relativedelta import relativedelta
 import streamlit as st
 
-
 def generar_tablas_ingresos(datos):
     df_viv = pd.DataFrame(datos.get("viviendas", []))
     if df_viv.empty:

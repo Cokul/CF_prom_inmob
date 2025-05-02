@@ -50,8 +50,6 @@ from graficas.gr_ingresos import mostrar_graficas_ingresos
 from graficas.gr_costes_ejecucion import mostrar_graficas_costes_ejecucion
 from graficas.gr_resumen_acumulado import mostrar_grafico_resumen_acumulado
 
-
-
 # Mostrar pantalla de bienvenida si no hay proyecto cargado
 mostrar_pantalla_bienvenida()
 
@@ -129,14 +127,21 @@ with tabs[4]:
     with st.expander("📊 Gráfica de resumen acumulado", expanded=False):
         mostrar_grafico_resumen_acumulado(datos)
 
-with st.expander("🛠️ Debug: contenido completo de datos", expanded=False):
-    import json
-    from datetime import date, datetime
+# with st.expander("1) Listado de tablas y claves de cada tabla", expanded=False):
+#     for key, value in datos.items():
+#         if isinstance(value, list):  # Asegurarse de que es una tabla
+#             st.write(f"**Tabla: {key}**")
+#             if len(value) > 0 and isinstance(value[0], dict):  # Si las filas de la tabla son diccionarios
+#                 # Mostrar las claves de la primera fila de la tabla
+#                 st.write(f"Claves de la tabla '{key}': {', '.join(value[0].keys())}")
+#             else:
+#                 st.write(f"No hay datos válidos en la tabla '{key}'.")
+#             st.write("")  # Añadir un espacio entre tablas
 
-    def serializar_objetos(o):
-        if isinstance(o, (date, datetime)):
-            return o.isoformat()
-        return str(o)
+# with st.expander("2) Listado de claves", expanded=False):
+#     claves = [key for key in datos.keys()]
+#     st.write(", ".join(claves))
 
-    st.code(json.dumps(datos, indent=2, ensure_ascii=False, default=serializar_objetos), language="json")
-    
+# # Mostrar el contenido completo de los datos al final
+# with st.expander("3) Resto de datos del debug actual", expanded=False):
+#     st.write("Este es el contenido completo de los datos:", datos)
