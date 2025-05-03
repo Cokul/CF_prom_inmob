@@ -1,3 +1,5 @@
+#resumen/resumen_general.py
+
 import pandas as pd
 import streamlit as st
 from indicadores.indicadores_rentabilidad import mostrar_indicadores_rentabilidad
@@ -69,4 +71,12 @@ def mostrar_resumen_general(datos):
         st.markdown(f"### 💶 Margen estimado por vivienda: {margen_vivienda:,.2f} € ({margen_pct:.2f}%)")
 
     # 👇 Fuera del expander
-    mostrar_indicadores_rentabilidad(datos)
+    tir_proyecto, tir_promotora = mostrar_indicadores_rentabilidad(datos)
+
+    # Guardar los indicadores clave para la comparativa
+    datos["resumen"] = {
+        "tir_proyecto": tir_proyecto,
+        "tir_promotora": tir_promotora,
+        "margen_unitario": margen_vivienda,
+        "margen_pct": margen_pct / 100  # guardamos como decimal
+    }

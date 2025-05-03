@@ -50,6 +50,9 @@ from graficas.gr_ingresos import mostrar_graficas_ingresos
 from graficas.gr_costes_ejecucion import mostrar_graficas_costes_ejecucion
 from graficas.gr_resumen_acumulado import mostrar_grafico_resumen_acumulado
 
+# Módulo de comparativa
+from comparativa import mostrar_comparativa
+
 # Mostrar pantalla de bienvenida si no hay proyecto cargado
 mostrar_pantalla_bienvenida()
 
@@ -62,7 +65,7 @@ if ruta_actual and os.path.exists(ruta_actual):
     
 
 # 🧮 Pestañas principales
-tabs = st.tabs(["📥 Inputs", "📊 Outputs", "📈 Flujo de Caja", "📋 Resumen", "📉 Gráficas"])
+tabs = st.tabs(["📥 Inputs", "📊 Outputs", "📈 Flujo de Caja", "📋 Resumen", "📉 Gráficas", "🧪 Comparativa"])
 
 # 📥 Pestaña Inputs
 with tabs[0]:
@@ -126,7 +129,13 @@ with tabs[4]:
     # Gráfica tabla resumen acumulado
     with st.expander("📊 Gráfica de resumen acumulado", expanded=False):
         mostrar_grafico_resumen_acumulado(datos)
+        
+# 🧪 Pestaña Comparativa
+with tabs[5]:
+    st.header("🧪 Comparativa de promociones")
+    mostrar_comparativa()
 
+# # Mostrar el contenido de los datos en modo debug
 # with st.expander("1) Listado de tablas y claves de cada tabla", expanded=False):
 #     for key, value in datos.items():
 #         if isinstance(value, list):  # Asegurarse de que es una tabla
