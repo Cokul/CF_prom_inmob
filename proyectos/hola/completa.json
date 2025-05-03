@@ -1,0 +1,3063 @@
+{
+  "nombre_proyecto": "",
+  "ubicacion": "",
+  "descripcion_proyecto": "",
+  "iva_viviendas": 10.0,
+  "iva_ejecucion": 0.0,
+  "iva_otros": 21.0,
+  "fecha_inicio_comercializacion": "2025-05-03",
+  "viviendas": [
+    {
+      "C\u00f3digo": "viv_01",
+      "Precio venta": 350000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_02",
+      "Precio venta": 360000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_03",
+      "Precio venta": 355000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_04",
+      "Precio venta": 400000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_05",
+      "Precio venta": 303400,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_06",
+      "Precio venta": 400000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_07",
+      "Precio venta": 256000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_08",
+      "Precio venta": 350000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_09",
+      "Precio venta": 360000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_10",
+      "Precio venta": 355000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_11",
+      "Precio venta": 400000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_12",
+      "Precio venta": 300000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_13",
+      "Precio venta": 320000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_14",
+      "Precio venta": 325000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    },
+    {
+      "C\u00f3digo": "viv_15",
+      "Precio venta": 400000,
+      "Fecha venta": "NaT",
+      "Fecha escritura": "NaT"
+    }
+  ],
+  "n_viviendas_ingresos": 15,
+  "precio_medio_ingresos": 348960.0,
+  "fase_reserva": 10000.0,
+  "fase_contrato_pct": 25.0,
+  "fase_aplazado_pct": 25.0,
+  "fase_escritura_pct": 47.39,
+  "superficie_solar": 1000.0,
+  "coste_suelo": 500000.0,
+  "fecha_adquisicion_suelo": "2025-05-03",
+  "coste_suelo_m2": 500.0,
+  "coste_suelo_vivienda": 33333.33,
+  "coste_suelo_con_iva": 605000.0,
+  "fecha_inicio_obra": "2025-05-03",
+  "coste_ejecucion_m2": 1600.0,
+  "superficie_construida_total": 2000.0,
+  "capitulos_obra": [
+    {
+      "Cap\u00edtulo": "Actuaciones previas",
+      "Peso (%)": 0.0008,
+      "Fecha inicio": "2025-05-03",
+      "Duraci\u00f3n (meses)": 3
+    },
+    {
+      "Cap\u00edtulo": "Demoliciones",
+      "Peso (%)": 0.03554,
+      "Fecha inicio": "2025-05-03",
+      "Duraci\u00f3n (meses)": 3
+    },
+    {
+      "Cap\u00edtulo": "Acondicionamiento del terreno",
+      "Peso (%)": 2.43289,
+      "Fecha inicio": "2025-05-03",
+      "Duraci\u00f3n (meses)": 3
+    },
+    {
+      "Cap\u00edtulo": "Cimentaciones",
+      "Peso (%)": 2.36372,
+      "Fecha inicio": "2025-07-03",
+      "Duraci\u00f3n (meses)": 4
+    },
+    {
+      "Cap\u00edtulo": "Estructuras",
+      "Peso (%)": 10.64831,
+      "Fecha inicio": "2025-09-03",
+      "Duraci\u00f3n (meses)": 4
+    },
+    {
+      "Cap\u00edtulo": "Fachadas y particiones",
+      "Peso (%)": 8.71951,
+      "Fecha inicio": "2026-01-03",
+      "Duraci\u00f3n (meses)": 4
+    },
+    {
+      "Cap\u00edtulo": "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares",
+      "Peso (%)": 9.88736,
+      "Fecha inicio": "2026-03-03",
+      "Duraci\u00f3n (meses)": 5
+    },
+    {
+      "Cap\u00edtulo": "Remates y ayudas",
+      "Peso (%)": 1.11051,
+      "Fecha inicio": "2026-05-03",
+      "Duraci\u00f3n (meses)": 6
+    },
+    {
+      "Cap\u00edtulo": "Instalaciones",
+      "Peso (%)": 17.93712,
+      "Fecha inicio": "2026-03-03",
+      "Duraci\u00f3n (meses)": 6
+    },
+    {
+      "Cap\u00edtulo": "Aislamientos e impermeabilizaciones",
+      "Peso (%)": 1.36965,
+      "Fecha inicio": "2025-09-03",
+      "Duraci\u00f3n (meses)": 3
+    },
+    {
+      "Cap\u00edtulo": "Cubiertas",
+      "Peso (%)": 3.1591,
+      "Fecha inicio": "2025-11-03",
+      "Duraci\u00f3n (meses)": 2
+    },
+    {
+      "Cap\u00edtulo": "Revestimientos y trasdosados",
+      "Peso (%)": 19.7394,
+      "Fecha inicio": "2026-05-03",
+      "Duraci\u00f3n (meses)": 5
+    },
+    {
+      "Cap\u00edtulo": "Se\u00f1alizaci\u00f3n y equipamiento",
+      "Peso (%)": 6.44508,
+      "Fecha inicio": "2026-08-03",
+      "Duraci\u00f3n (meses)": 2
+    },
+    {
+      "Cap\u00edtulo": "Urbanizaci\u00f3n interior de la parcela",
+      "Peso (%)": 14.79113,
+      "Fecha inicio": "2026-06-03",
+      "Duraci\u00f3n (meses)": 4
+    },
+    {
+      "Cap\u00edtulo": "Gesti\u00f3n de residuos",
+      "Peso (%)": 1.03846,
+      "Fecha inicio": "2025-05-03",
+      "Duraci\u00f3n (meses)": 17
+    },
+    {
+      "Cap\u00edtulo": "Control de calidad y ensayos",
+      "Peso (%)": 0.05725,
+      "Fecha inicio": "2025-07-03",
+      "Duraci\u00f3n (meses)": 5
+    },
+    {
+      "Cap\u00edtulo": "Seguridad y salud",
+      "Peso (%)": 0.26417,
+      "Fecha inicio": "2025-05-03",
+      "Duraci\u00f3n (meses)": 17
+    }
+  ],
+  "coste_total_ejecucion": 3200000.0,
+  "fecha_fin_obra": "2026-11-03",
+  "plazo_meses_obra": 18,
+  "honorarios_tecnicos": 5.0,
+  "gastos_administracion": 4.0,
+  "otros_costes_indirectos": 0.0,
+  "costes_indirectos_totales": 288000.0,
+  "costes_indirectos_vivienda": 19200.0,
+  "descripcion_costes_indirectos": "",
+  "coste_financiero_vivienda": 5000.0,
+  "porcentaje_costes_comerciales": 15.0,
+  "tabla_unidades_vendidas": [
+    {
+      "Mes": "2025-06",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-07",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-08",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-09",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-10",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-11",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2025-12",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-01",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-02",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-03",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-04",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-05",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-06",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-07",
+      "Unidades": 1
+    },
+    {
+      "Mes": "2026-08",
+      "Unidades": 1
+    },
+    {
+      "Mes": "Total",
+      "Unidades": 15
+    }
+  ],
+  "tabla_ingresos_sin_iva": [
+    {
+      "Mes": "2025-06",
+      "Reserva": 9090.91,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": 9090.91
+    },
+    {
+      "Mes": "2025-07",
+      "Reserva": 9090.91,
+      "Contrato": 87500.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": 96590.91
+    },
+    {
+      "Mes": "2025-08",
+      "Reserva": 9090.91,
+      "Contrato": 90000.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": 99090.91
+    },
+    {
+      "Mes": "2025-09",
+      "Reserva": 9090.91,
+      "Contrato": 88750.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": 97840.91
+    },
+    {
+      "Mes": "2025-10",
+      "Reserva": 9090.91,
+      "Contrato": 100000.0,
+      "Aplazado": 87500.0,
+      "Escritura": 0.0,
+      "Total": 196590.91
+    },
+    {
+      "Mes": "2025-11",
+      "Reserva": 9090.91,
+      "Contrato": 75850.0,
+      "Aplazado": 90000.0,
+      "Escritura": 0.0,
+      "Total": 174940.91
+    },
+    {
+      "Mes": "2025-12",
+      "Reserva": 9090.91,
+      "Contrato": 100000.0,
+      "Aplazado": 88750.0,
+      "Escritura": 0.0,
+      "Total": 197840.91
+    },
+    {
+      "Mes": "2026-01",
+      "Reserva": 9090.91,
+      "Contrato": 64000.0,
+      "Aplazado": 100000.0,
+      "Escritura": 0.0,
+      "Total": 173090.91
+    },
+    {
+      "Mes": "2026-02",
+      "Reserva": 9090.91,
+      "Contrato": 87500.0,
+      "Aplazado": 75850.0,
+      "Escritura": 0.0,
+      "Total": 172440.91
+    },
+    {
+      "Mes": "2026-03",
+      "Reserva": 9090.91,
+      "Contrato": 90000.0,
+      "Aplazado": 100000.0,
+      "Escritura": 0.0,
+      "Total": 199090.91
+    },
+    {
+      "Mes": "2026-04",
+      "Reserva": 9090.91,
+      "Contrato": 88750.0,
+      "Aplazado": 64000.0,
+      "Escritura": 0.0,
+      "Total": 161840.91
+    },
+    {
+      "Mes": "2026-05",
+      "Reserva": 9090.91,
+      "Contrato": 100000.0,
+      "Aplazado": 87500.0,
+      "Escritura": 0.0,
+      "Total": 196590.91
+    },
+    {
+      "Mes": "2026-06",
+      "Reserva": 9090.91,
+      "Contrato": 75000.0,
+      "Aplazado": 90000.0,
+      "Escritura": 0.0,
+      "Total": 174090.91
+    },
+    {
+      "Mes": "2026-07",
+      "Reserva": 9090.91,
+      "Contrato": 80000.0,
+      "Aplazado": 88750.0,
+      "Escritura": 0.0,
+      "Total": 177840.91
+    },
+    {
+      "Mes": "2026-08",
+      "Reserva": 9090.91,
+      "Contrato": 81250.0,
+      "Aplazado": 100000.0,
+      "Escritura": 0.0,
+      "Total": 190340.91
+    },
+    {
+      "Mes": "2026-09",
+      "Reserva": 0.0,
+      "Contrato": 100000.0,
+      "Aplazado": 75000.0,
+      "Escritura": 0.0,
+      "Total": 175000.0
+    },
+    {
+      "Mes": "2026-10",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 80000.0,
+      "Escritura": 0.0,
+      "Total": 80000.0
+    },
+    {
+      "Mes": "2026-11",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 81250.0,
+      "Escritura": 0.0,
+      "Total": 81250.0
+    },
+    {
+      "Mes": "2026-12",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 100000.0,
+      "Escritura": 0.0,
+      "Total": 100000.0
+    },
+    {
+      "Mes": "2027-02",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": 2480836.35,
+      "Total": 2480836.35
+    },
+    {
+      "Mes": "Total",
+      "Reserva": 136363.65,
+      "Contrato": 1308600.0,
+      "Aplazado": 1308600.0,
+      "Escritura": 2480836.35,
+      "Total": 5234400.0
+    }
+  ],
+  "tabla_ingresos_con_iva": [
+    {
+      "Mes": "2025-06",
+      "Reserva": 10000,
+      "Contrato": 0,
+      "Aplazado": 0,
+      "Escritura": 0,
+      "Total": 10000
+    },
+    {
+      "Mes": "2025-07",
+      "Reserva": 10000,
+      "Contrato": 96250,
+      "Aplazado": 0,
+      "Escritura": 0,
+      "Total": 106250
+    },
+    {
+      "Mes": "2025-08",
+      "Reserva": 10000,
+      "Contrato": 99000,
+      "Aplazado": 0,
+      "Escritura": 0,
+      "Total": 109000
+    },
+    {
+      "Mes": "2025-09",
+      "Reserva": 10000,
+      "Contrato": 97625,
+      "Aplazado": 0,
+      "Escritura": 0,
+      "Total": 107625
+    },
+    {
+      "Mes": "2025-10",
+      "Reserva": 10000,
+      "Contrato": 110000,
+      "Aplazado": 96250,
+      "Escritura": 0,
+      "Total": 216250
+    },
+    {
+      "Mes": "2025-11",
+      "Reserva": 10000,
+      "Contrato": 83435,
+      "Aplazado": 99000,
+      "Escritura": 0,
+      "Total": 192435
+    },
+    {
+      "Mes": "2025-12",
+      "Reserva": 10000,
+      "Contrato": 110000,
+      "Aplazado": 97625,
+      "Escritura": 0,
+      "Total": 217625
+    },
+    {
+      "Mes": "2026-01",
+      "Reserva": 10000,
+      "Contrato": 70400,
+      "Aplazado": 110000,
+      "Escritura": 0,
+      "Total": 190400
+    },
+    {
+      "Mes": "2026-02",
+      "Reserva": 10000,
+      "Contrato": 96250,
+      "Aplazado": 83435,
+      "Escritura": 0,
+      "Total": 189685
+    },
+    {
+      "Mes": "2026-03",
+      "Reserva": 10000,
+      "Contrato": 99000,
+      "Aplazado": 110000,
+      "Escritura": 0,
+      "Total": 219000
+    },
+    {
+      "Mes": "2026-04",
+      "Reserva": 10000,
+      "Contrato": 97625,
+      "Aplazado": 70400,
+      "Escritura": 0,
+      "Total": 178025
+    },
+    {
+      "Mes": "2026-05",
+      "Reserva": 10000,
+      "Contrato": 110000,
+      "Aplazado": 96250,
+      "Escritura": 0,
+      "Total": 216250
+    },
+    {
+      "Mes": "2026-06",
+      "Reserva": 10000,
+      "Contrato": 82500,
+      "Aplazado": 99000,
+      "Escritura": 0,
+      "Total": 191500
+    },
+    {
+      "Mes": "2026-07",
+      "Reserva": 10000,
+      "Contrato": 88000,
+      "Aplazado": 97625,
+      "Escritura": 0,
+      "Total": 195625
+    },
+    {
+      "Mes": "2026-08",
+      "Reserva": 10000,
+      "Contrato": 89375,
+      "Aplazado": 110000,
+      "Escritura": 0,
+      "Total": 209375
+    },
+    {
+      "Mes": "2026-09",
+      "Reserva": 0,
+      "Contrato": 110000,
+      "Aplazado": 82500,
+      "Escritura": 0,
+      "Total": 192500
+    },
+    {
+      "Mes": "2026-10",
+      "Reserva": 0,
+      "Contrato": 0,
+      "Aplazado": 88000,
+      "Escritura": 0,
+      "Total": 88000
+    },
+    {
+      "Mes": "2026-11",
+      "Reserva": 0,
+      "Contrato": 0,
+      "Aplazado": 89375,
+      "Escritura": 0,
+      "Total": 89375
+    },
+    {
+      "Mes": "2026-12",
+      "Reserva": 0,
+      "Contrato": 0,
+      "Aplazado": 110000,
+      "Escritura": 0,
+      "Total": 110000
+    },
+    {
+      "Mes": "2027-02",
+      "Reserva": 0,
+      "Contrato": 0,
+      "Aplazado": 0,
+      "Escritura": 2728920,
+      "Total": 2728920
+    },
+    {
+      "Mes": "Total",
+      "Reserva": 150000,
+      "Contrato": 1439460,
+      "Aplazado": 1439460,
+      "Escritura": 2728920,
+      "Total": 5757840
+    }
+  ],
+  "tabla_comisiones_sin_iva": [
+    {
+      "Mes": "2025-06",
+      "Reserva": -1363.64,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -1363.64
+    },
+    {
+      "Mes": "2025-07",
+      "Reserva": -1363.64,
+      "Contrato": -13125.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -14488.64
+    },
+    {
+      "Mes": "2025-08",
+      "Reserva": -1363.64,
+      "Contrato": -13500.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -14863.64
+    },
+    {
+      "Mes": "2025-09",
+      "Reserva": -1363.64,
+      "Contrato": -13312.5,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -14676.14
+    },
+    {
+      "Mes": "2025-10",
+      "Reserva": -1363.64,
+      "Contrato": -15000.0,
+      "Aplazado": -13125.0,
+      "Escritura": 0.0,
+      "Total": -29488.64
+    },
+    {
+      "Mes": "2025-11",
+      "Reserva": -1363.64,
+      "Contrato": -11377.5,
+      "Aplazado": -13500.0,
+      "Escritura": 0.0,
+      "Total": -26241.14
+    },
+    {
+      "Mes": "2025-12",
+      "Reserva": -1363.64,
+      "Contrato": -15000.0,
+      "Aplazado": -13312.5,
+      "Escritura": 0.0,
+      "Total": -29676.14
+    },
+    {
+      "Mes": "2026-01",
+      "Reserva": -1363.64,
+      "Contrato": -9600.0,
+      "Aplazado": -15000.0,
+      "Escritura": 0.0,
+      "Total": -25963.64
+    },
+    {
+      "Mes": "2026-02",
+      "Reserva": -1363.64,
+      "Contrato": -13125.0,
+      "Aplazado": -11377.5,
+      "Escritura": 0.0,
+      "Total": -25866.14
+    },
+    {
+      "Mes": "2026-03",
+      "Reserva": -1363.64,
+      "Contrato": -13500.0,
+      "Aplazado": -15000.0,
+      "Escritura": 0.0,
+      "Total": -29863.64
+    },
+    {
+      "Mes": "2026-04",
+      "Reserva": -1363.64,
+      "Contrato": -13312.5,
+      "Aplazado": -9600.0,
+      "Escritura": 0.0,
+      "Total": -24276.14
+    },
+    {
+      "Mes": "2026-05",
+      "Reserva": -1363.64,
+      "Contrato": -15000.0,
+      "Aplazado": -13125.0,
+      "Escritura": 0.0,
+      "Total": -29488.64
+    },
+    {
+      "Mes": "2026-06",
+      "Reserva": -1363.64,
+      "Contrato": -11250.0,
+      "Aplazado": -13500.0,
+      "Escritura": 0.0,
+      "Total": -26113.64
+    },
+    {
+      "Mes": "2026-07",
+      "Reserva": -1363.64,
+      "Contrato": -12000.0,
+      "Aplazado": -13312.5,
+      "Escritura": 0.0,
+      "Total": -26676.14
+    },
+    {
+      "Mes": "2026-08",
+      "Reserva": -1363.64,
+      "Contrato": -12187.5,
+      "Aplazado": -15000.0,
+      "Escritura": 0.0,
+      "Total": -28551.14
+    },
+    {
+      "Mes": "2026-09",
+      "Reserva": 0.0,
+      "Contrato": -15000.0,
+      "Aplazado": -11250.0,
+      "Escritura": 0.0,
+      "Total": -26250.0
+    },
+    {
+      "Mes": "2026-10",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -12000.0,
+      "Escritura": 0.0,
+      "Total": -12000.0
+    },
+    {
+      "Mes": "2026-11",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -12187.5,
+      "Escritura": 0.0,
+      "Total": -12187.5
+    },
+    {
+      "Mes": "2026-12",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -15000.0,
+      "Escritura": 0.0,
+      "Total": -15000.0
+    },
+    {
+      "Mes": "2027-02",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": -372125.4,
+      "Total": -372125.4
+    },
+    {
+      "Mes": "Total",
+      "Reserva": -20454.6,
+      "Contrato": -196290.0,
+      "Aplazado": -196290.0,
+      "Escritura": -372125.4,
+      "Total": -785160.0
+    }
+  ],
+  "tabla_comisiones_con_iva": [
+    {
+      "Mes": "2025-06",
+      "Reserva": -1650.0,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -1650.0
+    },
+    {
+      "Mes": "2025-07",
+      "Reserva": -1650.0,
+      "Contrato": -15881.25,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -17531.25
+    },
+    {
+      "Mes": "2025-08",
+      "Reserva": -1650.0,
+      "Contrato": -16335.0,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -17985.0
+    },
+    {
+      "Mes": "2025-09",
+      "Reserva": -1650.0,
+      "Contrato": -16108.12,
+      "Aplazado": 0.0,
+      "Escritura": 0.0,
+      "Total": -17758.120000000003
+    },
+    {
+      "Mes": "2025-10",
+      "Reserva": -1650.0,
+      "Contrato": -18150.0,
+      "Aplazado": -15881.25,
+      "Escritura": 0.0,
+      "Total": -35681.25
+    },
+    {
+      "Mes": "2025-11",
+      "Reserva": -1650.0,
+      "Contrato": -13766.77,
+      "Aplazado": -16335.0,
+      "Escritura": 0.0,
+      "Total": -31751.77
+    },
+    {
+      "Mes": "2025-12",
+      "Reserva": -1650.0,
+      "Contrato": -18150.0,
+      "Aplazado": -16108.12,
+      "Escritura": 0.0,
+      "Total": -35908.12
+    },
+    {
+      "Mes": "2026-01",
+      "Reserva": -1650.0,
+      "Contrato": -11616.0,
+      "Aplazado": -18150.0,
+      "Escritura": 0.0,
+      "Total": -31416.0
+    },
+    {
+      "Mes": "2026-02",
+      "Reserva": -1650.0,
+      "Contrato": -15881.25,
+      "Aplazado": -13766.77,
+      "Escritura": 0.0,
+      "Total": -31298.02
+    },
+    {
+      "Mes": "2026-03",
+      "Reserva": -1650.0,
+      "Contrato": -16335.0,
+      "Aplazado": -18150.0,
+      "Escritura": 0.0,
+      "Total": -36135.0
+    },
+    {
+      "Mes": "2026-04",
+      "Reserva": -1650.0,
+      "Contrato": -16108.12,
+      "Aplazado": -11616.0,
+      "Escritura": 0.0,
+      "Total": -29374.120000000003
+    },
+    {
+      "Mes": "2026-05",
+      "Reserva": -1650.0,
+      "Contrato": -18150.0,
+      "Aplazado": -15881.25,
+      "Escritura": 0.0,
+      "Total": -35681.25
+    },
+    {
+      "Mes": "2026-06",
+      "Reserva": -1650.0,
+      "Contrato": -13612.5,
+      "Aplazado": -16335.0,
+      "Escritura": 0.0,
+      "Total": -31597.5
+    },
+    {
+      "Mes": "2026-07",
+      "Reserva": -1650.0,
+      "Contrato": -14520.0,
+      "Aplazado": -16108.12,
+      "Escritura": 0.0,
+      "Total": -32278.120000000003
+    },
+    {
+      "Mes": "2026-08",
+      "Reserva": -1650.0,
+      "Contrato": -14746.88,
+      "Aplazado": -18150.0,
+      "Escritura": 0.0,
+      "Total": -34546.88
+    },
+    {
+      "Mes": "2026-09",
+      "Reserva": 0.0,
+      "Contrato": -18150.0,
+      "Aplazado": -13612.5,
+      "Escritura": 0.0,
+      "Total": -31762.5
+    },
+    {
+      "Mes": "2026-10",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -14520.0,
+      "Escritura": 0.0,
+      "Total": -14520.0
+    },
+    {
+      "Mes": "2026-11",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -14746.88,
+      "Escritura": 0.0,
+      "Total": -14746.88
+    },
+    {
+      "Mes": "2026-12",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": -18150.0,
+      "Escritura": 0.0,
+      "Total": -18150.0
+    },
+    {
+      "Mes": "2027-02",
+      "Reserva": 0.0,
+      "Contrato": 0.0,
+      "Aplazado": 0.0,
+      "Escritura": -450271.8,
+      "Total": -450271.8
+    },
+    {
+      "Mes": "Total",
+      "Reserva": -24750.0,
+      "Contrato": -237510.89,
+      "Aplazado": -237510.89,
+      "Escritura": -450271.8,
+      "Total": -950043.5800000001
+    }
+  ],
+  "planificacion_capitulos": [
+    {
+      "Cap\u00edtulo": "Actuaciones previas",
+      "Peso (%)": 8e-06,
+      "Fecha inicio": "2025-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 3,
+      "Fecha fin": "2025-08-03 00:00:00",
+      "Coste cap\u00edtulo": -25.599999999999998
+    },
+    {
+      "Cap\u00edtulo": "Demoliciones",
+      "Peso (%)": 0.0003554,
+      "Fecha inicio": "2025-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 3,
+      "Fecha fin": "2025-08-03 00:00:00",
+      "Coste cap\u00edtulo": -1137.28
+    },
+    {
+      "Cap\u00edtulo": "Acondicionamiento del terreno",
+      "Peso (%)": 0.0243289,
+      "Fecha inicio": "2025-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 3,
+      "Fecha fin": "2025-08-03 00:00:00",
+      "Coste cap\u00edtulo": -77852.48
+    },
+    {
+      "Cap\u00edtulo": "Cimentaciones",
+      "Peso (%)": 0.023637199999999997,
+      "Fecha inicio": "2025-07-03 00:00:00",
+      "Duraci\u00f3n (meses)": 4,
+      "Fecha fin": "2025-11-03 00:00:00",
+      "Coste cap\u00edtulo": -75639.04
+    },
+    {
+      "Cap\u00edtulo": "Estructuras",
+      "Peso (%)": 0.1064831,
+      "Fecha inicio": "2025-09-03 00:00:00",
+      "Duraci\u00f3n (meses)": 4,
+      "Fecha fin": "2026-01-03 00:00:00",
+      "Coste cap\u00edtulo": -340745.92
+    },
+    {
+      "Cap\u00edtulo": "Fachadas y particiones",
+      "Peso (%)": 0.0871951,
+      "Fecha inicio": "2026-01-03 00:00:00",
+      "Duraci\u00f3n (meses)": 4,
+      "Fecha fin": "2026-05-03 00:00:00",
+      "Coste cap\u00edtulo": -279024.32
+    },
+    {
+      "Cap\u00edtulo": "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares",
+      "Peso (%)": 0.09887359999999999,
+      "Fecha inicio": "2026-03-03 00:00:00",
+      "Duraci\u00f3n (meses)": 5,
+      "Fecha fin": "2026-08-03 00:00:00",
+      "Coste cap\u00edtulo": -316395.51999999996
+    },
+    {
+      "Cap\u00edtulo": "Remates y ayudas",
+      "Peso (%)": 0.011105100000000001,
+      "Fecha inicio": "2026-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 6,
+      "Fecha fin": "2026-11-03 00:00:00",
+      "Coste cap\u00edtulo": -35536.32000000001
+    },
+    {
+      "Cap\u00edtulo": "Instalaciones",
+      "Peso (%)": 0.1793712,
+      "Fecha inicio": "2026-03-03 00:00:00",
+      "Duraci\u00f3n (meses)": 6,
+      "Fecha fin": "2026-09-03 00:00:00",
+      "Coste cap\u00edtulo": -573987.8400000001
+    },
+    {
+      "Cap\u00edtulo": "Aislamientos e impermeabilizaciones",
+      "Peso (%)": 0.0136965,
+      "Fecha inicio": "2025-09-03 00:00:00",
+      "Duraci\u00f3n (meses)": 3,
+      "Fecha fin": "2025-12-03 00:00:00",
+      "Coste cap\u00edtulo": -43828.8
+    },
+    {
+      "Cap\u00edtulo": "Cubiertas",
+      "Peso (%)": 0.031591,
+      "Fecha inicio": "2025-11-03 00:00:00",
+      "Duraci\u00f3n (meses)": 2,
+      "Fecha fin": "2026-01-03 00:00:00",
+      "Coste cap\u00edtulo": -101091.2
+    },
+    {
+      "Cap\u00edtulo": "Revestimientos y trasdosados",
+      "Peso (%)": 0.197394,
+      "Fecha inicio": "2026-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 5,
+      "Fecha fin": "2026-10-03 00:00:00",
+      "Coste cap\u00edtulo": -631660.7999999999
+    },
+    {
+      "Cap\u00edtulo": "Se\u00f1alizaci\u00f3n y equipamiento",
+      "Peso (%)": 0.0644508,
+      "Fecha inicio": "2026-08-03 00:00:00",
+      "Duraci\u00f3n (meses)": 2,
+      "Fecha fin": "2026-10-03 00:00:00",
+      "Coste cap\u00edtulo": -206242.56
+    },
+    {
+      "Cap\u00edtulo": "Urbanizaci\u00f3n interior de la parcela",
+      "Peso (%)": 0.1479113,
+      "Fecha inicio": "2026-06-03 00:00:00",
+      "Duraci\u00f3n (meses)": 4,
+      "Fecha fin": "2026-10-03 00:00:00",
+      "Coste cap\u00edtulo": -473316.16
+    },
+    {
+      "Cap\u00edtulo": "Gesti\u00f3n de residuos",
+      "Peso (%)": 0.010384599999999999,
+      "Fecha inicio": "2025-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 17,
+      "Fecha fin": "2026-10-03 00:00:00",
+      "Coste cap\u00edtulo": -33230.719999999994
+    },
+    {
+      "Cap\u00edtulo": "Control de calidad y ensayos",
+      "Peso (%)": 0.0005725,
+      "Fecha inicio": "2025-07-03 00:00:00",
+      "Duraci\u00f3n (meses)": 5,
+      "Fecha fin": "2025-12-03 00:00:00",
+      "Coste cap\u00edtulo": -1832.0
+    },
+    {
+      "Cap\u00edtulo": "Seguridad y salud",
+      "Peso (%)": 0.0026417000000000003,
+      "Fecha inicio": "2025-05-03 00:00:00",
+      "Duraci\u00f3n (meses)": 17,
+      "Fecha fin": "2026-10-03 00:00:00",
+      "Coste cap\u00edtulo": -8453.44
+    }
+  ],
+  "costes_mensuales_ejecucion": [
+    {
+      "Mes": "2025-05",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -28790.462745098037
+    },
+    {
+      "Mes": "2025-06",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -28790.462745098037
+    },
+    {
+      "Mes": "2025-07",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": -18909.76,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -48066.62274509804
+    },
+    {
+      "Mes": "2025-08",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -21728.169411764706
+    },
+    {
+      "Mes": "2025-09",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -121524.2494117647
+    },
+    {
+      "Mes": "2025-10",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -121524.2494117647
+    },
+    {
+      "Mes": "2025-11",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": -50545.6,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -153160.0894117647
+    },
+    {
+      "Mes": "2025-12",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": -50545.6,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -138184.0894117647
+    },
+    {
+      "Mes": "2026-01",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -72208.08941176471
+    },
+    {
+      "Mes": "2026-02",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -72208.08941176471
+    },
+    {
+      "Mes": "2026-03",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -231151.83341176473
+    },
+    {
+      "Mes": "2026-04",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -231151.83341176473
+    },
+    {
+      "Mes": "2026-05",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -293650.63341176475
+    },
+    {
+      "Mes": "2026-06",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -411979.6734117647
+    },
+    {
+      "Mes": "2026-07",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -411979.6734117647
+    },
+    {
+      "Mes": "2026-08",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -103121.28,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -451821.84941176476
+    },
+    {
+      "Mes": "2026-09",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -103121.28,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -356157.20941176475
+    },
+    {
+      "Mes": "2026-10",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": 0.0,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": 0.0,
+      "T. Costes": -5922.720000000001
+    },
+    {
+      "Mes": "Total",
+      "Actuaciones previas": -25.6,
+      "Demoliciones": -1137.28,
+      "Acondicionamiento del terreno": -77852.48,
+      "Cimentaciones": -75639.04,
+      "Estructuras": -340745.92,
+      "Fachadas y particiones": -279024.32,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -316395.51999999996,
+      "Remates y ayudas": -35536.32000000001,
+      "Instalaciones": -573987.8400000001,
+      "Aislamientos e impermeabilizaciones": -43828.8,
+      "Cubiertas": -101091.2,
+      "Revestimientos y trasdosados": -631660.7999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -206242.56,
+      "Urbanizaci\u00f3n interior de la parcela": -473316.16,
+      "Gesti\u00f3n de residuos": -33230.719999999994,
+      "Control de calidad y ensayos": -1831.9999999999998,
+      "Seguridad y salud": -8453.44,
+      "T. Costes": -3200000.0000000005
+    }
+  ],
+  "costes_mensuales_ejecucion_iva": [
+    {
+      "Mes": "2025-05",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -28790.462745098037
+    },
+    {
+      "Mes": "2025-06",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -28790.462745098037
+    },
+    {
+      "Mes": "2025-07",
+      "Actuaciones previas": -8.533333333333333,
+      "Demoliciones": -379.0933333333333,
+      "Acondicionamiento del terreno": -25950.826666666664,
+      "Cimentaciones": -18909.76,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -48066.62274509804
+    },
+    {
+      "Mes": "2025-08",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -21728.169411764706
+    },
+    {
+      "Mes": "2025-09",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -121524.2494117647
+    },
+    {
+      "Mes": "2025-10",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": -18909.76,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -121524.2494117647
+    },
+    {
+      "Mes": "2025-11",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": -14609.6,
+      "Cubiertas": -50545.6,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": -366.4,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -153160.0894117647
+    },
+    {
+      "Mes": "2025-12",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": -85186.48,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": -50545.6,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -138184.0894117647
+    },
+    {
+      "Mes": "2026-01",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -72208.08941176471
+    },
+    {
+      "Mes": "2026-02",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -72208.08941176471
+    },
+    {
+      "Mes": "2026-03",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -231151.83341176473
+    },
+    {
+      "Mes": "2026-04",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": -69756.08,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": 0.0,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -231151.83341176473
+    },
+    {
+      "Mes": "2026-05",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -293650.63341176475
+    },
+    {
+      "Mes": "2026-06",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -411979.6734117647
+    },
+    {
+      "Mes": "2026-07",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -63279.10399999999,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -411979.6734117647
+    },
+    {
+      "Mes": "2026-08",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": -95664.64000000001,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -103121.28,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -451821.84941176476
+    },
+    {
+      "Mes": "2026-09",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": -126332.15999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -103121.28,
+      "Urbanizaci\u00f3n interior de la parcela": -118329.04,
+      "Gesti\u00f3n de residuos": -1954.7482352941172,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": -497.2611764705883,
+      "T. Costes": -356157.20941176475
+    },
+    {
+      "Mes": "2026-10",
+      "Actuaciones previas": 0.0,
+      "Demoliciones": 0.0,
+      "Acondicionamiento del terreno": 0.0,
+      "Cimentaciones": 0.0,
+      "Estructuras": 0.0,
+      "Fachadas y particiones": 0.0,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": 0.0,
+      "Remates y ayudas": -5922.720000000001,
+      "Instalaciones": 0.0,
+      "Aislamientos e impermeabilizaciones": 0.0,
+      "Cubiertas": 0.0,
+      "Revestimientos y trasdosados": 0.0,
+      "Se\u00f1alizaci\u00f3n y equipamiento": 0.0,
+      "Urbanizaci\u00f3n interior de la parcela": 0.0,
+      "Gesti\u00f3n de residuos": 0.0,
+      "Control de calidad y ensayos": 0.0,
+      "Seguridad y salud": 0.0,
+      "T. Costes": -5922.720000000001
+    },
+    {
+      "Mes": "Total",
+      "Actuaciones previas": -25.6,
+      "Demoliciones": -1137.28,
+      "Acondicionamiento del terreno": -77852.48,
+      "Cimentaciones": -75639.04,
+      "Estructuras": -340745.92,
+      "Fachadas y particiones": -279024.32,
+      "Carpinter\u00eda, cerrajer\u00eda, vidrios y protecciones solares": -316395.51999999996,
+      "Remates y ayudas": -35536.32000000001,
+      "Instalaciones": -573987.8400000001,
+      "Aislamientos e impermeabilizaciones": -43828.8,
+      "Cubiertas": -101091.2,
+      "Revestimientos y trasdosados": -631660.7999999999,
+      "Se\u00f1alizaci\u00f3n y equipamiento": -206242.56,
+      "Urbanizaci\u00f3n interior de la parcela": -473316.16,
+      "Gesti\u00f3n de residuos": -33230.719999999994,
+      "Control de calidad y ensayos": -1831.9999999999998,
+      "Seguridad y salud": -8453.44,
+      "T. Costes": -3200000.0000000005
+    }
+  ],
+  "costes_indirectos_sin_iva": [
+    {
+      "Mes": "2025-06-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -80000.0,
+      "Gastos de administraci\u00f3n": -64000.0,
+      "Total": -144000.0
+    },
+    {
+      "Mes": "2025-07-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2025-08-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2025-09-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2025-10-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2025-11-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2025-12-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-01-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-02-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-03-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-04-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-05-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-06-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-07-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-08-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-09-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-10-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2000.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2000.0
+    },
+    {
+      "Mes": "2026-11-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -48000.0,
+      "Gastos de administraci\u00f3n": -64000.0,
+      "Total": -112000.0
+    },
+    {
+      "Mes": "Total",
+      "Honorarios t\u00e9cnicos": -160000.0,
+      "Gastos de administraci\u00f3n": -128000.0,
+      "Total": -288000.0
+    }
+  ],
+  "costes_indirectos_con_iva": [
+    {
+      "Mes": "2025-06-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -96800.0,
+      "Gastos de administraci\u00f3n": -77440.0,
+      "Total": -174240.0
+    },
+    {
+      "Mes": "2025-07-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2025-08-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2025-09-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2025-10-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2025-11-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2025-12-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-01-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-02-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-03-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-04-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-05-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-06-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-07-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-08-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-09-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-10-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -2420.0,
+      "Gastos de administraci\u00f3n": -0.0,
+      "Total": -2420.0
+    },
+    {
+      "Mes": "2026-11-01 00:00:00",
+      "Honorarios t\u00e9cnicos": -58080.0,
+      "Gastos de administraci\u00f3n": -77440.0,
+      "Total": -135520.0
+    },
+    {
+      "Mes": "Total",
+      "Honorarios t\u00e9cnicos": -193600.0,
+      "Gastos de administraci\u00f3n": -154880.0,
+      "Total": -348480.0
+    }
+  ],
+  "costes_financieros": [
+    {
+      "Mes": "2025-06",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-07",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-08",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-09",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-10",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-11",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2025-12",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-01",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-02",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-03",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-04",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-05",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-06",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-07",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "2026-08",
+      "Unidades": 1,
+      "Coste financiero": -5000.0
+    },
+    {
+      "Mes": "Total",
+      "Unidades": 15,
+      "Coste financiero": -75000.0
+    }
+  ],
+  "flujo_caja": [
+    {
+      "Mes": "2025-05",
+      "Ingresos": 0.0,
+      "Comisiones": 0.0,
+      "Suelo": -605000.0,
+      "Coste ejecuci\u00f3n": -28790.462745098037,
+      "Costes Indirectos": 0.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": -633790.462745098,
+      "Flujo Neto Acumulado": -633790.462745098,
+      "Flujo mensual": -633790.462745098
+    },
+    {
+      "Mes": "2025-06",
+      "Ingresos": 10000.0,
+      "Comisiones": -1650.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -28790.462745098037,
+      "Costes Indirectos": -174240.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -199680.46274509805,
+      "Flujo Neto Acumulado": -833470.9254901961,
+      "Flujo mensual": -199680.46274509805
+    },
+    {
+      "Mes": "2025-07",
+      "Ingresos": 106250.0,
+      "Comisiones": -17531.25,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -48066.62274509804,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 33232.12725490196,
+      "Flujo Neto Acumulado": -800238.7982352942,
+      "Flujo mensual": 33232.12725490196
+    },
+    {
+      "Mes": "2025-08",
+      "Ingresos": 109000.0,
+      "Comisiones": -17985.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -21728.169411764706,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 61866.83058823529,
+      "Flujo Neto Acumulado": -738371.9676470589,
+      "Flujo mensual": 61866.83058823529
+    },
+    {
+      "Mes": "2025-09",
+      "Ingresos": 107625.0,
+      "Comisiones": -17758.120000000003,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -121524.2494117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -39077.369411764696,
+      "Flujo Neto Acumulado": -777449.3370588236,
+      "Flujo mensual": -39077.369411764696
+    },
+    {
+      "Mes": "2025-10",
+      "Ingresos": 216250.0,
+      "Comisiones": -35681.25,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -121524.2494117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 51624.5005882353,
+      "Flujo Neto Acumulado": -725824.8364705882,
+      "Flujo mensual": 51624.5005882353
+    },
+    {
+      "Mes": "2025-11",
+      "Ingresos": 192435.0,
+      "Comisiones": -31751.77,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -153160.0894117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 103.14058823531377,
+      "Flujo Neto Acumulado": -725721.6958823529,
+      "Flujo mensual": 103.14058823531377
+    },
+    {
+      "Mes": "2025-12",
+      "Ingresos": 217625.0,
+      "Comisiones": -35908.12,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -138184.0894117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 36112.79058823531,
+      "Flujo Neto Acumulado": -689608.9052941175,
+      "Flujo mensual": 36112.79058823531
+    },
+    {
+      "Mes": "2026-01",
+      "Ingresos": 190400.0,
+      "Comisiones": -31416.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -72208.08941176471,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 79355.91058823529,
+      "Flujo Neto Acumulado": -610252.9947058823,
+      "Flujo mensual": 79355.91058823529
+    },
+    {
+      "Mes": "2026-02",
+      "Ingresos": 189685.0,
+      "Comisiones": -31298.02,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -72208.08941176471,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": 78758.8905882353,
+      "Flujo Neto Acumulado": -531494.1041176469,
+      "Flujo mensual": 78758.8905882353
+    },
+    {
+      "Mes": "2026-03",
+      "Ingresos": 219000.0,
+      "Comisiones": -36135.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -231151.83341176473,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -55706.83341176473,
+      "Flujo Neto Acumulado": -587200.9375294116,
+      "Flujo mensual": -55706.83341176473
+    },
+    {
+      "Mes": "2026-04",
+      "Ingresos": 178025.0,
+      "Comisiones": -29374.120000000003,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -231151.83341176473,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -89920.95341176473,
+      "Flujo Neto Acumulado": -677121.8909411763,
+      "Flujo mensual": -89920.95341176473
+    },
+    {
+      "Mes": "2026-05",
+      "Ingresos": 216250.0,
+      "Comisiones": -35681.25,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -293650.63341176475,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -120501.88341176475,
+      "Flujo Neto Acumulado": -797623.7743529411,
+      "Flujo mensual": -120501.88341176475
+    },
+    {
+      "Mes": "2026-06",
+      "Ingresos": 191500.0,
+      "Comisiones": -31597.5,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -411979.6734117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -259497.17341176473,
+      "Flujo Neto Acumulado": -1057120.9477647059,
+      "Flujo mensual": -259497.17341176473
+    },
+    {
+      "Mes": "2026-07",
+      "Ingresos": 195625.0,
+      "Comisiones": -32278.120000000003,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -411979.6734117647,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -256052.79341176472,
+      "Flujo Neto Acumulado": -1313173.7411764706,
+      "Flujo mensual": -256052.79341176472
+    },
+    {
+      "Mes": "2026-08",
+      "Ingresos": 209375.0,
+      "Comisiones": -34546.88,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -451821.84941176476,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": -5000.0,
+      "Flujo Neto": -284413.72941176477,
+      "Flujo Neto Acumulado": -1597587.4705882354,
+      "Flujo mensual": -284413.72941176477
+    },
+    {
+      "Mes": "2026-09",
+      "Ingresos": 192500.0,
+      "Comisiones": -31762.5,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -356157.20941176475,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": -197839.70941176475,
+      "Flujo Neto Acumulado": -1795427.1800000002,
+      "Flujo mensual": -197839.70941176475
+    },
+    {
+      "Mes": "2026-10",
+      "Ingresos": 88000.0,
+      "Comisiones": -14520.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": -5922.720000000001,
+      "Costes Indirectos": -2420.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": 65137.28,
+      "Flujo Neto Acumulado": -1730289.9000000001,
+      "Flujo mensual": 65137.28
+    },
+    {
+      "Mes": "2026-11",
+      "Ingresos": 89375.0,
+      "Comisiones": -14746.88,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Costes Indirectos": -135520.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": -60891.880000000005,
+      "Flujo Neto Acumulado": -1791181.7800000003,
+      "Flujo mensual": -60891.880000000005
+    },
+    {
+      "Mes": "2026-12",
+      "Ingresos": 110000.0,
+      "Comisiones": -18150.0,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Costes Indirectos": 0.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": 91850.0,
+      "Flujo Neto Acumulado": -1699331.7800000003,
+      "Flujo mensual": 91850.0
+    },
+    {
+      "Mes": "2027-02",
+      "Ingresos": 2728920.0,
+      "Comisiones": -450271.8,
+      "Suelo": 0.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Costes Indirectos": 0.0,
+      "Costes Financieros": 0.0,
+      "Flujo Neto": 2278648.2,
+      "Flujo Neto Acumulado": 579316.4199999999,
+      "Flujo mensual": 2278648.2
+    },
+    {
+      "Mes": "Total",
+      "Ingresos": 5757840.0,
+      "Comisiones": -950043.5800000001,
+      "Suelo": -605000.0,
+      "Coste ejecuci\u00f3n": -3200000.0000000005,
+      "Costes Indirectos": -348480.0,
+      "Costes Financieros": -75000.0,
+      "Flujo Neto": 579316.4199999999,
+      "Flujo Neto Acumulado": 579316.4199999999,
+      "Flujo mensual": 579316.4199999999
+    }
+  ],
+  "movimientos_cuenta_especial": [
+    {
+      "Mes": "2025-06",
+      "Ingresos cuenta especial": 10000.0,
+      "Coste ejecuci\u00f3n": -28790.462745098037,
+      "Flujo mensual": -18790.462745098037,
+      "Saldo acumulado": 0.0,
+      "D\u00e9ficit cuenta especial": -18790.462745098037
+    },
+    {
+      "Mes": "2025-07",
+      "Ingresos cuenta especial": 106250.0,
+      "Coste ejecuci\u00f3n": -48066.62274509804,
+      "Flujo mensual": 58183.37725490196,
+      "Saldo acumulado": 58183.37725490196,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-08",
+      "Ingresos cuenta especial": 109000.0,
+      "Coste ejecuci\u00f3n": -21728.169411764706,
+      "Flujo mensual": 87271.83058823529,
+      "Saldo acumulado": 145455.20784313726,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-09",
+      "Ingresos cuenta especial": 107625.0,
+      "Coste ejecuci\u00f3n": -121524.2494117647,
+      "Flujo mensual": -13899.2494117647,
+      "Saldo acumulado": 131555.95843137256,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-10",
+      "Ingresos cuenta especial": 216250.0,
+      "Coste ejecuci\u00f3n": -121524.2494117647,
+      "Flujo mensual": 94725.7505882353,
+      "Saldo acumulado": 226281.70901960786,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-11",
+      "Ingresos cuenta especial": 192435.0,
+      "Coste ejecuci\u00f3n": -153160.0894117647,
+      "Flujo mensual": 39274.9105882353,
+      "Saldo acumulado": 265556.61960784317,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-12",
+      "Ingresos cuenta especial": 217625.0,
+      "Coste ejecuci\u00f3n": -138184.0894117647,
+      "Flujo mensual": 79440.9105882353,
+      "Saldo acumulado": 344997.5301960785,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-01",
+      "Ingresos cuenta especial": 190400.0,
+      "Coste ejecuci\u00f3n": -72208.08941176471,
+      "Flujo mensual": 118191.91058823529,
+      "Saldo acumulado": 463189.4407843138,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-02",
+      "Ingresos cuenta especial": 189685.0,
+      "Coste ejecuci\u00f3n": -72208.08941176471,
+      "Flujo mensual": 117476.91058823529,
+      "Saldo acumulado": 580666.3513725491,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-03",
+      "Ingresos cuenta especial": 219000.0,
+      "Coste ejecuci\u00f3n": -231151.83341176473,
+      "Flujo mensual": -12151.833411764732,
+      "Saldo acumulado": 568514.5179607844,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-04",
+      "Ingresos cuenta especial": 178025.0,
+      "Coste ejecuci\u00f3n": -231151.83341176473,
+      "Flujo mensual": -53126.83341176473,
+      "Saldo acumulado": 515387.6845490197,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-05",
+      "Ingresos cuenta especial": 216250.0,
+      "Coste ejecuci\u00f3n": -293650.63341176475,
+      "Flujo mensual": -77400.63341176475,
+      "Saldo acumulado": 437987.0511372549,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-06",
+      "Ingresos cuenta especial": 191500.0,
+      "Coste ejecuci\u00f3n": -411979.6734117647,
+      "Flujo mensual": -220479.67341176473,
+      "Saldo acumulado": 217507.3777254902,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-07",
+      "Ingresos cuenta especial": 195625.0,
+      "Coste ejecuci\u00f3n": -411979.6734117647,
+      "Flujo mensual": -216354.67341176473,
+      "Saldo acumulado": 1152.704313725466,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-08",
+      "Ingresos cuenta especial": 209375.0,
+      "Coste ejecuci\u00f3n": -451821.84941176476,
+      "Flujo mensual": -242446.84941176476,
+      "Saldo acumulado": 0.0,
+      "D\u00e9ficit cuenta especial": -241294.1450980393
+    },
+    {
+      "Mes": "2026-09",
+      "Ingresos cuenta especial": 192500.0,
+      "Coste ejecuci\u00f3n": -356157.20941176475,
+      "Flujo mensual": -163657.20941176475,
+      "Saldo acumulado": 0.0,
+      "D\u00e9ficit cuenta especial": -163657.20941176475
+    },
+    {
+      "Mes": "2026-10",
+      "Ingresos cuenta especial": 88000.0,
+      "Coste ejecuci\u00f3n": -5922.720000000001,
+      "Flujo mensual": 82077.28,
+      "Saldo acumulado": 82077.28,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-11",
+      "Ingresos cuenta especial": 89375.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Flujo mensual": 89375.0,
+      "Saldo acumulado": 171452.28,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2026-12",
+      "Ingresos cuenta especial": 110000.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Flujo mensual": 110000.0,
+      "Saldo acumulado": 281452.28,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2027-02",
+      "Ingresos cuenta especial": 0.0,
+      "Coste ejecuci\u00f3n": 0.0,
+      "Flujo mensual": 0.0,
+      "Saldo acumulado": 281452.28,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "2025-05",
+      "Ingresos cuenta especial": 0.0,
+      "Coste ejecuci\u00f3n": -28790.462745098037,
+      "Flujo mensual": -28790.462745098037,
+      "Saldo acumulado": 252661.81725490198,
+      "D\u00e9ficit cuenta especial": 0.0
+    },
+    {
+      "Mes": "Total",
+      "Ingresos cuenta especial": 3028920.0,
+      "Coste ejecuci\u00f3n": -3200000.0,
+      "Flujo mensual": -171080.00000000023,
+      "Saldo acumulado": 252661.81725490198,
+      "D\u00e9ficit cuenta especial": -423741.8172549021
+    }
+  ],
+  "tabla_necesidades_financiacion": [
+    {
+      "Mes": "2025-05",
+      "Comisiones pre-escritura": 0.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": 0.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": 0.0,
+      "Acumulado": 0.0
+    },
+    {
+      "Mes": "2025-05",
+      "Comisiones pre-escritura": 0.0,
+      "Coste suelo": -605000.0,
+      "Costes indirectos": 0.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -605000.0,
+      "Acumulado": -605000.0
+    },
+    {
+      "Mes": "2025-06",
+      "Comisiones pre-escritura": -1650.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -174240.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": -18790.462745098037,
+      "Total necesidades": -199680.46274509805,
+      "Acumulado": -804680.462745098
+    },
+    {
+      "Mes": "2025-07",
+      "Comisiones pre-escritura": -17531.25,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -24951.25,
+      "Acumulado": -829631.712745098
+    },
+    {
+      "Mes": "2025-08",
+      "Comisiones pre-escritura": -17985.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -25405.0,
+      "Acumulado": -855036.712745098
+    },
+    {
+      "Mes": "2025-09",
+      "Comisiones pre-escritura": -17758.120000000003,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -25178.120000000003,
+      "Acumulado": -880214.832745098
+    },
+    {
+      "Mes": "2025-10",
+      "Comisiones pre-escritura": -35681.25,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -43101.25,
+      "Acumulado": -923316.082745098
+    },
+    {
+      "Mes": "2025-11",
+      "Comisiones pre-escritura": -31751.77,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -39171.770000000004,
+      "Acumulado": -962487.8527450981
+    },
+    {
+      "Mes": "2025-12",
+      "Comisiones pre-escritura": -35908.12,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -43328.12,
+      "Acumulado": -1005815.972745098
+    },
+    {
+      "Mes": "2026-01",
+      "Comisiones pre-escritura": -31416.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -38836.0,
+      "Acumulado": -1044651.972745098
+    },
+    {
+      "Mes": "2026-02",
+      "Comisiones pre-escritura": -31298.02,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -38718.020000000004,
+      "Acumulado": -1083369.992745098
+    },
+    {
+      "Mes": "2026-03",
+      "Comisiones pre-escritura": -36135.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -43555.0,
+      "Acumulado": -1126924.992745098
+    },
+    {
+      "Mes": "2026-04",
+      "Comisiones pre-escritura": -29374.120000000003,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -36794.12,
+      "Acumulado": -1163719.112745098
+    },
+    {
+      "Mes": "2026-05",
+      "Comisiones pre-escritura": -35681.25,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -43101.25,
+      "Acumulado": -1206820.362745098
+    },
+    {
+      "Mes": "2026-06",
+      "Comisiones pre-escritura": -31597.5,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -39017.5,
+      "Acumulado": -1245837.862745098
+    },
+    {
+      "Mes": "2026-07",
+      "Comisiones pre-escritura": -32278.120000000003,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -39698.12,
+      "Acumulado": -1285535.9827450982
+    },
+    {
+      "Mes": "2026-08",
+      "Comisiones pre-escritura": -34546.88,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": -5000.0,
+      "D\u00e9ficit cuenta especial": -241294.1450980393,
+      "Total necesidades": -283261.0250980393,
+      "Acumulado": -1568797.0078431375
+    },
+    {
+      "Mes": "2026-09",
+      "Comisiones pre-escritura": -31762.5,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": -163657.20941176475,
+      "Total necesidades": -197839.70941176475,
+      "Acumulado": -1766636.7172549022
+    },
+    {
+      "Mes": "2026-10",
+      "Comisiones pre-escritura": -14520.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -2420.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -16940.0,
+      "Acumulado": -1783576.7172549022
+    },
+    {
+      "Mes": "2026-11",
+      "Comisiones pre-escritura": -14746.88,
+      "Coste suelo": 0.0,
+      "Costes indirectos": -135520.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -150266.88,
+      "Acumulado": -1933843.5972549021
+    },
+    {
+      "Mes": "2026-12",
+      "Comisiones pre-escritura": -18150.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": 0.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": -18150.0,
+      "Acumulado": -1951993.5972549021
+    },
+    {
+      "Mes": "2027-02",
+      "Comisiones pre-escritura": 0.0,
+      "Coste suelo": 0.0,
+      "Costes indirectos": 0.0,
+      "Costes financieros": 0.0,
+      "D\u00e9ficit cuenta especial": 0.0,
+      "Total necesidades": 0.0,
+      "Acumulado": -1951993.5972549021
+    },
+    {
+      "Mes": "Total",
+      "Comisiones pre-escritura": -499771.78,
+      "Coste suelo": -605000.0,
+      "Costes indirectos": -348480.0,
+      "Costes financieros": -75000.0,
+      "D\u00e9ficit cuenta especial": -423741.8172549021,
+      "Total necesidades": -1951993.5972549021,
+      "Acumulado": -1951993.5972549021
+    }
+  ],
+  "tabla_resumen_acumulado": [
+    {
+      "Mes": "2025-05",
+      "Ingresos acumulados": 0.0,
+      "Flujo total acumulado": -633790.462745098,
+      "D\u00e9ficit cuenta especial acumulado": 0.0,
+      "Necesidades financiaci\u00f3n acumuladas": 0.0
+    },
+    {
+      "Mes": "2025-05",
+      "Ingresos acumulados": 0.0,
+      "Flujo total acumulado": -633790.462745098,
+      "D\u00e9ficit cuenta especial acumulado": 0.0,
+      "Necesidades financiaci\u00f3n acumuladas": -605000.0
+    },
+    {
+      "Mes": "2025-06",
+      "Ingresos acumulados": 10000.0,
+      "Flujo total acumulado": -833470.9254901961,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -804680.462745098
+    },
+    {
+      "Mes": "2025-07",
+      "Ingresos acumulados": 116250.0,
+      "Flujo total acumulado": -800238.7982352942,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -829631.712745098
+    },
+    {
+      "Mes": "2025-08",
+      "Ingresos acumulados": 225250.0,
+      "Flujo total acumulado": -738371.9676470589,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -855036.712745098
+    },
+    {
+      "Mes": "2025-09",
+      "Ingresos acumulados": 332875.0,
+      "Flujo total acumulado": -777449.3370588236,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -880214.832745098
+    },
+    {
+      "Mes": "2025-10",
+      "Ingresos acumulados": 549125.0,
+      "Flujo total acumulado": -725824.8364705882,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -923316.082745098
+    },
+    {
+      "Mes": "2025-11",
+      "Ingresos acumulados": 741560.0,
+      "Flujo total acumulado": -725721.6958823529,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -962487.8527450981
+    },
+    {
+      "Mes": "2025-12",
+      "Ingresos acumulados": 959185.0,
+      "Flujo total acumulado": -689608.9052941175,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1005815.972745098
+    },
+    {
+      "Mes": "2026-01",
+      "Ingresos acumulados": 1149585.0,
+      "Flujo total acumulado": -610252.9947058823,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1044651.972745098
+    },
+    {
+      "Mes": "2026-02",
+      "Ingresos acumulados": 1339270.0,
+      "Flujo total acumulado": -531494.1041176469,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1083369.992745098
+    },
+    {
+      "Mes": "2026-03",
+      "Ingresos acumulados": 1558270.0,
+      "Flujo total acumulado": -587200.9375294116,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1126924.992745098
+    },
+    {
+      "Mes": "2026-04",
+      "Ingresos acumulados": 1736295.0,
+      "Flujo total acumulado": -677121.8909411763,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1163719.112745098
+    },
+    {
+      "Mes": "2026-05",
+      "Ingresos acumulados": 1952545.0,
+      "Flujo total acumulado": -797623.7743529411,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1206820.362745098
+    },
+    {
+      "Mes": "2026-06",
+      "Ingresos acumulados": 2144045.0,
+      "Flujo total acumulado": -1057120.9477647059,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1245837.862745098
+    },
+    {
+      "Mes": "2026-07",
+      "Ingresos acumulados": 2339670.0,
+      "Flujo total acumulado": -1313173.7411764706,
+      "D\u00e9ficit cuenta especial acumulado": -18790.462745098037,
+      "Necesidades financiaci\u00f3n acumuladas": -1285535.9827450982
+    },
+    {
+      "Mes": "2026-08",
+      "Ingresos acumulados": 2549045.0,
+      "Flujo total acumulado": -1597587.4705882354,
+      "D\u00e9ficit cuenta especial acumulado": -260084.60784313735,
+      "Necesidades financiaci\u00f3n acumuladas": -1568797.0078431375
+    },
+    {
+      "Mes": "2026-09",
+      "Ingresos acumulados": 2741545.0,
+      "Flujo total acumulado": -1795427.1800000002,
+      "D\u00e9ficit cuenta especial acumulado": -423741.8172549021,
+      "Necesidades financiaci\u00f3n acumuladas": -1766636.7172549022
+    },
+    {
+      "Mes": "2026-10",
+      "Ingresos acumulados": 2829545.0,
+      "Flujo total acumulado": -1730289.9000000001,
+      "D\u00e9ficit cuenta especial acumulado": -423741.8172549021,
+      "Necesidades financiaci\u00f3n acumuladas": -1783576.7172549022
+    },
+    {
+      "Mes": "2026-11",
+      "Ingresos acumulados": 2918920.0,
+      "Flujo total acumulado": -1791181.7800000003,
+      "D\u00e9ficit cuenta especial acumulado": -423741.8172549021,
+      "Necesidades financiaci\u00f3n acumuladas": -1933843.5972549021
+    },
+    {
+      "Mes": "2026-12",
+      "Ingresos acumulados": 3028920.0,
+      "Flujo total acumulado": -1699331.7800000003,
+      "D\u00e9ficit cuenta especial acumulado": -423741.8172549021,
+      "Necesidades financiaci\u00f3n acumuladas": -1951993.5972549021
+    },
+    {
+      "Mes": "2027-02",
+      "Ingresos acumulados": 5757840.0,
+      "Flujo total acumulado": 579316.4199999999,
+      "D\u00e9ficit cuenta especial acumulado": -423741.8172549021,
+      "Necesidades financiaci\u00f3n acumuladas": -1951993.5972549021
+    }
+  ]
+}
