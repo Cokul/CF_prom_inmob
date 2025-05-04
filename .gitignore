@@ -1,0 +1,32 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de configuración de VS Code / Codespaces
+.vscode/
+*.code-workspace
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs o temporales
+*.log
+*.tmp
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Datos temporales
+*.csv
+*.xlsx
+*.json
+/proyectos/
