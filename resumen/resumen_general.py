@@ -3,6 +3,7 @@
 import pandas as pd
 import streamlit as st
 from indicadores.indicadores_rentabilidad import mostrar_indicadores_rentabilidad
+from utils.u_tir import calcular_tir_proyecto, calcular_tir_promotora
 
 def mostrar_resumen_general(datos):
     with st.expander("📋 Datos generales del proyecto", expanded=True):
@@ -70,8 +71,58 @@ def mostrar_resumen_general(datos):
         st.markdown(f"### 🧮 Coste total por vivienda: {coste_total:,.2f} €")
         st.markdown(f"### 💶 Margen estimado por vivienda: {margen_vivienda:,.2f} € ({margen_pct:.2f}%)")
 
-    # 👇 Fuera del expander
-    tir_proyecto, tir_promotora = mostrar_indicadores_rentabilidad(datos)
+        # Indicadores de Rentabilidad dentro del expander
+        tir_proyecto, err_proy, _, _ = calcular_tir_proyecto(datos)
+        tir_promotora, err_prom, _, _ = calcular_tir_promotora(datos)
+
+        st.markdown("### 📈 Indicadores de Rentabilidad")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("**TIR del Proyecto**")
+            st.caption("Tasa Interna de Retorno del proyecto completo, considerando todos los ingresos y costes con IVA.")
+            if err_proy:
+                st.warning(err_proy)
+            elif tir_proyecto is not None:
+                if tir_proyecto >= 0.10:
+                    color = "#d4edda"  # verde
+                    leyenda = "✅ Óptima (≥10%)"
+                elif tir_proyecto >= 0.05:
+                    color = "#fff3cd"  # amarillo
+                    leyenda = "⚠️ Aceptable (5%–10%)"
+                else:
+                    color = "#f8d7da"  # rojo
+                    leyenda = "❌ Baja (<5%)"
+                st.markdown(
+                    f"<div style='background-color:{color};padding:10px;border-radius:5px;font-size:16px'><b>{tir_proyecto:.2%}</b></div>",
+                    unsafe_allow_html=True
+                )
+                st.caption(leyenda)
+            else:
+                st.error("No calculable")
+
+        with col2:
+            st.markdown("**TIR de la Promotora**")
+            st.caption("TIR sobre la inversión asumida por la promotora: costes no cubiertos por clientes (suelo, indirectos, financieros y déficit de cuenta especial).")
+            if err_prom:
+                st.warning(err_prom)
+            elif tir_promotora is not None:
+                if tir_promotora >= 0.10:
+                    color = "#d4edda"
+                    leyenda = "✅ Óptima (≥10%)"
+                elif tir_promotora >= 0.05:
+                    color = "#fff3cd"
+                    leyenda = "⚠️ Aceptable (5%–10%)"
+                else:
+                    color = "#f8d7da"
+                    leyenda = "❌ Baja (<5%)"
+                st.markdown(
+                    f"<div style='background-color:{color};padding:10px;border-radius:5px;font-size:16px'><b>{tir_promotora:.2%}</b></div>",
+                    unsafe_allow_html=True
+                )
+                st.caption(leyenda)
+            else:
+                st.error("No calculable")
 
     # Guardar los indicadores clave para la comparativa
     datos["resumen"] = {
