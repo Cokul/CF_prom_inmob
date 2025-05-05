@@ -102,13 +102,6 @@ def mostrar_resumen_general(datos):
             else:
                 st.error("No calculable")
 
-        st.download_button(
-            label="📥 Descargar resumen en PDF",
-            data=generar_pdf_resumen(datos),  # Esta función debe devolver un objeto BytesIO o similar
-            file_name="resumen_general.pdf",
-            mime="application/pdf"
-        )
-
         with col2:
             st.markdown("**TIR de la Promotora**")
             st.caption("TIR sobre la inversión asumida por la promotora: costes no cubiertos por clientes (suelo, indirectos, financieros y déficit de cuenta especial).")
@@ -139,6 +132,14 @@ def mostrar_resumen_general(datos):
         "margen_unitario": margen_vivienda,
         "margen_pct": margen_pct / 100  # guardamos como decimal
     }
+    
+    # Descargar resumen en PDF
+    st.download_button(
+            label="📥 Descargar resumen en PDF",
+            data=generar_pdf_resumen(datos),  # Esta función debe devolver un objeto BytesIO o similar
+            file_name="resumen_general.pdf",
+            mime="application/pdf"
+        )
 
     # Mostrar la cuenta de resultados de la promoción (sin IVA)
     with st.expander("🧾 Cuenta de Resultados de la Promoción (sin IVA)", expanded=False):

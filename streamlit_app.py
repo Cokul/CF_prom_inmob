@@ -17,6 +17,14 @@ aplicar_estilos()
 # Inicializar datos
 if "datos_proyecto" not in st.session_state:
     st.session_state["datos_proyecto"] = {}
+
+# Forzar carga desde disco si está vacía pero hay una versión seleccionada
+if not st.session_state["datos_proyecto"] and st.session_state.get("ruta_version_actual"):
+    ruta = st.session_state["ruta_version_actual"]
+    if os.path.exists(ruta):
+        with open(ruta, "r") as f:
+            st.session_state["datos_proyecto"] = json.load(f)
+
 datos = st.session_state["datos_proyecto"]
 
 # Bienvenida
