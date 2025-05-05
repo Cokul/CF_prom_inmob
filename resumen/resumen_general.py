@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 from indicadores.indicadores_rentabilidad import mostrar_indicadores_rentabilidad
 from utils.u_tir import calcular_tir_proyecto, calcular_tir_promotora
+from utils.generar_pdf_resumen import generar_pdf_resumen
 
 def mostrar_resumen_general(datos):
     with st.expander("📋 Datos generales del proyecto", expanded=True):
@@ -101,6 +102,13 @@ def mostrar_resumen_general(datos):
             else:
                 st.error("No calculable")
 
+        st.download_button(
+            label="📥 Descargar resumen en PDF",
+            data=generar_pdf_resumen(datos),  # Esta función debe devolver un objeto BytesIO o similar
+            file_name="resumen_general.pdf",
+            mime="application/pdf"
+        )
+
         with col2:
             st.markdown("**TIR de la Promotora**")
             st.caption("TIR sobre la inversión asumida por la promotora: costes no cubiertos por clientes (suelo, indirectos, financieros y déficit de cuenta especial).")
@@ -131,3 +139,60 @@ def mostrar_resumen_general(datos):
         "margen_unitario": margen_vivienda,
         "margen_pct": margen_pct / 100  # guardamos como decimal
     }
+
+    # Mostrar la cuenta de resultados de la promoción (sin IVA)
+    with st.expander("🧾 Cuenta de Resultados de la Promoción (sin IVA)", expanded=False):
+        precio_medio = datos.get("precio_medio_ingresos", 0)
+        num_viviendas = datos.get("n_viviendas_ingresos", 0)
+        comisiones_venta = datos.get("porcentaje_costes_comerciales", 0)
+        coste_ejecucion_m2 = datos.get("coste_ejecucion_m2", 0)
+        superficie_total = datos.get("superficie_construida_total", 0)
+        porcentaje_honorarios = datos.get("honorarios_tecnicos", 0)
+        porcentaje_admin = datos.get("gastos_administracion", 0)
+        gastos_financieros = datos.get("coste_financiero_vivienda", 0)
+        coste_suelo = datos.get("coste_suelo", 0)
+
+        ingresos_por_venta = precio_medio * num_viviendas
+        total_comisiones = ingresos_por_venta * comisiones_venta / 100
+        ingresos_netos = ingresos_por_venta - total_comisiones
+
+        coste_ejecucion_total = coste_ejecucion_m2 * superficie_total
+        coste_honorarios = coste_ejecucion_total * porcentaje_honorarios / 100
+        coste_admin = coste_ejecucion_total * porcentaje_admin / 100
+        coste_financiero = gastos_financieros * num_viviendas
+        costes_no_ejecutivos = coste_honorarios + coste_admin + coste_financiero
+
+        total_costes = coste_suelo + coste_ejecucion_total + costes_no_ejecutivos
+        margen = ingresos_netos - total_costes
+
+        margen_vivienda = margen / num_viviendas if num_viviendas else 0
+        margen_m2 = margen / superficie_total if superficie_total else 0
+
+        cuenta_resultados = pd.DataFrame({
+            "Concepto": [
+                "Ingresos por venta",
+                "(-) Comisiones",
+                "= Ingresos Netos",
+                "Compra de terrenos",
+                "Costes de ejecución",
+                "Costes no ejecutivos",
+                "= Total Costes",
+                "= Margen",
+                "Margen por vivienda",
+                "Margen por m² construido"
+            ],
+            "Importe (€)": [
+                ingresos_por_venta,
+                -total_comisiones,
+                ingresos_netos,
+                -coste_suelo,
+                -coste_ejecucion_total,
+                -costes_no_ejecutivos,
+                -total_costes,
+                margen,
+                margen_vivienda,
+                margen_m2
+            ]
+        })
+
+        st.dataframe(cuenta_resultados, use_container_width=True)
