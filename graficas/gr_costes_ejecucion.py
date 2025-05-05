@@ -59,20 +59,32 @@ def mostrar_graficas_costes_ejecucion(datos):
         if total_coste > 0:
             df_plan["Peso (%)"] = df_plan["Coste (€)"] / total_coste * 100
 
-    # Mostrar el Treemap si ya tenemos los pesos
+    # Asegurarse de que los pesos sean positivos
     if "Peso (%)" in df_plan.columns:
+        df_plan["Peso (%)"] = df_plan["Peso (%)"].abs()  # Usar valor absoluto para evitar valores negativos
+
         df_pesos = df_plan[["Capítulo", "Peso (%)"]].copy()
         df_pesos["Peso (%)"] = df_pesos["Peso (%)"].round(2)
 
-        fig_treemap = px.treemap(
-            df_pesos,
-            path=["Capítulo"],
-            values="Peso (%)",
-            title="Distribución de pesos por capítulo en el coste de ejecución",
-            color="Peso (%)",
-            color_continuous_scale="OrRd"
-        )
-        st.plotly_chart(fig_treemap, use_container_width=True)
+        # Verificar los datos antes del treemap
+        df_pesos = df_plan[["Capítulo", "Peso (%)"]].copy()
+
+        # Eliminar cualquier valor NaN o nulo en la columna de peso
+        df_pesos = df_pesos.dropna(subset=["Peso (%)"])
+        
+        # Verificar si la suma de los pesos es mayor que cero
+        if df_pesos["Peso (%)"].sum() > 0:
+            fig_treemap = px.treemap(
+                df_pesos,
+                path=["Capítulo"],
+                values="Peso (%)",
+                title="Distribución de pesos por capítulo en el coste de ejecución",
+                color="Peso (%)",
+                color_continuous_scale="OrRd"
+            )
+            st.plotly_chart(fig_treemap, use_container_width=True)
+        else:
+            st.info("No se muestra el treemap porque todos los pesos son cero.")
     else:
         st.info("No se muestra el treemap porque no se han definido pesos por capítulo.")
 

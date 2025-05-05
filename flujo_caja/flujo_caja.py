@@ -359,7 +359,7 @@ def generar_tabla_flujo_caja(datos):
 
             # 5. Unir todas las tablas y aplicar forward fill
             df_resumen = pd.concat([df_ingresos, df_flujo, df_deficit, df_necesidades], axis=1)
-            df_resumen = df_resumen.sort_index().fillna(method="ffill").fillna(0)
+            df_resumen = df_resumen.sort_index().ffill().fillna(0)
             df_resumen.index = [i.strftime("%Y-%m") for i in df_resumen.index]
 
             # 6. Mostrar y guardar
